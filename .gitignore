@@ -1,0 +1,103 @@
+# Gradle files
+.gradle/
+**/build/
+**/out/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/lib/
+
+# Local configuration files
+/local.properties
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/dictionaries/
+.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/gradle.xml
+/.idea/assetWizardSettings.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/navEditor.xml
+/.idea/.name
+*.iml
+
+# Android Studio files
+/.idea/
+/*.ipr
+/*.iws
+
+# Keystore files
+*.jks
+*.keystore
+
+# IntelliJ files
+/out/
+*.ipr
+*.iws
+*.iml
+
+# External native build files
+.externalNativeBuild/
+.cxx/
+
+# Other files
+/captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+*.log
+
+# Mac OS X files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Generated files
+*.apk
+*.ap_
+*.db
+*.jar
+*.war
+*.ear
+*.class
+*.dex
+*.so
+*.obj
+*.o
+*.a
+*.dylib
+*.lib
+*.dll
+*.exe
+
+# ProGuard
+proguard/
+
+# Flutter
+.generated/
+.flutter-plugins
+.packages
+pubspec.lock
+
+# Kotlin
+*.kotlin_metadata
+
+# Gradle
+build/
+**/build/
+
+# Crashlytics and Firebase
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# NDK
+obj/
+
+# Local unit test files
+.idea/codeStyles/Project.xml
+
+# End of .gitignore
